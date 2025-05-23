@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+.paper{
+    padding: 100px 100px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bg.avif);
+    background-position: center center;
+}
+p{
+    font-family: 'Allura', cursive;
+    font-weight: 2em;
+}
+.paper{
+    position: absolute;
+    box-shadow: 1px 15px 20px 0px rgb(0, 0, 0.3);
+    
+}
+#a {
+    width: 160px;            /* smaller width */
+    padding: 8px 8px 25px;   /* padding: top, sides, bottom */
+    background: white;
+    box-shadow: 1px 15px 20px 0px rgb(0, 0, 0.3);
+    text-align: center;
+    font-family: 'Allura', cursive;
+    margin: 10px;
+    transform: rotate(-10deg);
+}
+.fa-heart
+{
+    font-size: 100px;
+    color: #E31B23;
+    position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       font-size: 10rem;
+}
+.fa-heart:hover
+{
+    color: red;
+}
+#love-letter {
+      display: none;
+      margin-top: 20px;
+      padding: 20px;
+      background: #fff0f5;
+      border-radius: 10px;
+      font-family: 'Allura', cursive;
+      font-size: 1.5em;
+      max-width: 400px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+#love-letter .fa-arrow-right-from-bracket
+{
+    margin-left: 14.5em;
+}
+.play-btn {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: 'Allura', cursive;
+  color: #333;
+  cursor: pointer;
+  padding: 5px;
+  transition: transform 0.2s ease;
+}
+
+.play-btn:hover {
+  transform: scale(1.1);
+  color: #555;
+}
+#a img{
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#b{
+    width: 160px;            /* smaller width */
+    padding: 8px 8px 25px;   /* padding: top, sides, bottom */
+    background: white;
+    box-shadow: 1px 15px 20px 0px rgb(0, 0, 0.3);
+    text-align: center;
+    font-family: 'Allura', cursive;
+    margin: 10px;
+    transform: rotate(-8deg);
+}
+#b img{
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+}
+#c{
+    width: 160px;            /* smaller width */
+    padding: 8px 8px 25px;   /* padding: top, sides, bottom */
+    background: white;
+    box-shadow: 1px 15px 20px 0px rgb(0, 0, 0.3);
+    text-align: center;
+    font-family: 'Allura', cursive;
+    margin: 10px;
+    transform: rotate(10deg);
+}
+#c img{
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+}
+#d{
+   width: 160px;            /* smaller width */
+    padding: 8px 8px 25px;   /* padding: top, sides, bottom */
+    background: white;
+    box-shadow: 1px 15px 20px 0px rgb(0, 0, 0.3);
+    text-align: center;
+    font-family: 'Allura', cursive;
+    margin: 10px;
+    transform: rotate(-14deg);
+}
+#d img{
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#e{
+   width: 160px;            /* smaller width */
+    padding: 8px 8px 25px;   /* padding: top, sides, bottom */
+    background: white;
+    box-shadow: 1px 15px 20px 0px rgb(0, 0, 0.3);
+    text-align: center;
+    font-family: 'Allura', cursive;
+    margin: 10px;
+    transform: rotate(-9deg);
+}
+#e img{
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#f{
+    background-image: url(divbg.jpg);
+    background-size: 800px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    transform: rotate(-13deg);
+}
+#f p{
+    font-size: 3em;
+}

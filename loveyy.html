@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loveee</title>
+    <link rel="stylesheet" href="jessie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <i id="heart-icon" class="fa-solid fa-heart"></i>
+    <div id="love-letter">
+    <p>
+      Hi po, <br />
+      There's no special occasion po, I only just want to make this for you. I just want to show you how much I appreciate you, how much I cherish you, and how captivated I am whenever I see you.
+      Your angelic tone, your joyful presence and your kindness make me fall even harder for you. I hope you'll like this!! 
+    </p>
+    <i id="back-icon" class="fa-solid fa-arrow-right-from-bracket"></i>
+  </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const heart = document.getElementById('heart-icon');
+    const letter = document.getElementById('love-letter');
+    const back = document.getElementById('back-icon');
+
+    heart.addEventListener('click', () => {
+      heart.style.display = 'none';
+      letter.style.display = 'block';
+    });
+
+    back.addEventListener('click', () => {
+      letter.style.display = 'none';
+      heart.style.display = 'block';
+    });
+  });
+</script>
+    <div class="paper" id="a">
+        <img src="5.jpg" alt="">
+        <p>This song always reminds me of you.</p>
+        <button class="play-btn" onclick="document.getElementById('player').play()">▶ Play</button>
+<audio id="player" src="Starship - Nothing's Gonna Stop Us Now (Lyrics).mp3"></audio>
+    </div>
+    <div class="paper" id="b">
+        <img src="4.jpg" alt="">
+        <p>Look how those flowers resemble you, they show just how beautiful you are!</p>
+    </div>
+    <div class="paper" id="c">
+        <img src="3.jpg" alt="">
+        <p>How I love when you send me this kind of photos.</p>
+    </div>
+    <div class="paper" id="d">
+        <img src="2.jpg" alt="">
+        <p>Look how beauftiful your eyes when you smile.</p>
+    </div>
+    <div class="paper" id="e">
+        <img src="1.jpg" alt="">
+        <p>Look po oh! Look how gorgeous u are!!</p>
+    </div>
+    <div class="paper" id="f"><P>Hi, Love!</P></div>
+    <script src="jessie.js"></script>
+</body>
+</html>
